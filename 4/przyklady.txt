@@ -1,0 +1,18 @@
+wejscie:
+Nazwa produktu | cena za 1 szt brutto | ilość zakupionych sztuk | stawka VAT | cena 1 szt netto
+    Produkt 1  | 100,33zł             | 5                       | 23%        | ?
+    Produkt 2  | 3,79zł               | 3                       | 8%         | ?
+    Produkt 3  | 99,11zł              | 1                       | 23%        | ?
+    Produkt 4  | 77,17zł              | 7                       | 23%        | ?
+    Produkt 5  | 14,22zł              | 7                       | 8%         | ?
+    Produkt 6  | 17,99zł              | 11                      | 0%         | ?
+    Produkt 7  | 17,99zł              | 11                      | zw         | ?
+    Produkt 8  | 20,99zł              | 7                       | zw         | ?
+
+wyjscie:
+stawka        vat | wartość netto | kwota VAT | wartość brutto
+    VAT       23% | ?             | ?         | ?
+    VAT       8%  | ?             | ?         | ?
+    ...           | ?   | ?             | ?
+    ...           | ?   | ?             | ?
+    Razem         | ?   | ?             | ?
